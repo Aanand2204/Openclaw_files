@@ -1,4 +1,4 @@
-# 11 Creating & Managing Skills: Giving Your AI "Hands"
+# 12 Creating and Managing Skills (Deep Dive)
 
 Skills are what turn OpenClaw from a "chatbot" into a "digital intern." While the AI (Agent) can think and reason, **Skills** are specialized tools that let it interact with the outside world.
 
@@ -40,22 +40,12 @@ OpenClaw will prompt you for these keys when you first try to enable the skill.
 ## 🔄 The Tool Execution Flow
 Here is the step-by-step process of how your agent uses a skill:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-sequenceDiagram
-    participant LLM
-    participant Agent
-    participant SkillEngine
-    LLM->>Agent: Call Tool (get_weather)
-    Agent->>SkillEngine: Execute get_weather(location='NY')
-    SkillEngine-->>Agent: Result (75F, Sunny)
-    Agent->>LLM: Append to Context
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/c2VxdWVuY2VEaWFncmFtCiAgICBwYXJ0aWNpcGFudCBMTE0KICAgIHBhcnRpY2lwYW50IEFnZW50CiAgICBwYXJ0aWNpcGFudCBTa2lsbEVuZ2luZQogICAgTExNLT4+QWdlbnQ6IENhbGwgVG9vbCAoZ2V0X3dlYXRoZXIpCiAgICBBZ2VudC0+PlNraWxsRW5naW5lOiBFeGVjdXRlIGdldF93ZWF0aGVyKGxvY2F0aW9uPSdOWScpCiAgICBTa2lsbEVuZ2luZS0tPj5BZ2VudDogUmVzdWx0ICg3NUYsIFN1bm55KQogICAgQWdlbnQtPj5MTE06IEFwcGVuZCB0byBDb250ZXh0)
-</details>
 
 ---
 
@@ -64,3 +54,4 @@ Try asking your agent: *"What skills do you currently have?"*
 It should list the tools it can access, like searching the web or checking system status.
 
 **Next Lesson:** Ready to build something unique? Let’s learn how to create your very own **Custom Skill**!
+

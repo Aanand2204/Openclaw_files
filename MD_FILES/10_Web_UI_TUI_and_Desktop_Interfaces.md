@@ -1,4 +1,4 @@
-# 09 Web UI, TUI & Desktop: Choosing Your Command Center
+# 10 Web UI, TUI and Desktop Interfaces
 
 One of the coolest parts of OpenClaw is that it isn’t just a background process—it’s a living tool you can control in multiple ways. Whether you want a high-end dashboard, a retro terminal interface, or a distraction-free desktop app, OpenClaw has you covered!
 
@@ -46,18 +46,12 @@ Finally, there is the standalone **Desktop App**. This is perfect if you want yo
 ## 🔄 Interaction Diagram
 Here’s a look at how these different frontends connect to the same OpenClaw backend:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-graph LR
-    OC((OpenClaw Backend)) -- API/WebSocket --> Web[Web UI (React)]
-    OC -- RPC --> Desktop[Desktop App]
-    OC -- CLI --> TUI[Terminal UI]
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Z3JhcGggTFIKICAgIE9DKChPcGVuQ2xhdyBCYWNrZW5kKSkgLS0gQVBJL1dlYlNvY2tldCAtLT4gV2ViW1dlYiBVSSAoUmVhY3QpXQogICAgT0MgLS0gUlBDIC0tPiBEZXNrdG9wW0Rlc2t0b3AgQXBwXQogICAgT0MgLS0gQ0xJIC0tPiBUVUlbVGVybWluYWwgVUld)
-</details>
 
 ---
 
@@ -65,3 +59,4 @@ graph LR
 The best way to learn is to **try each one**. Launch the Web UI first, then try the TUI. See which one feels more natural for your workflow. 
 
 **Next Lesson:** Let's look at the secret sauce behind your agent—the "Identity," "Soul," and "Memory" files!
+

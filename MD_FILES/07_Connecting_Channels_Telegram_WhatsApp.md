@@ -1,4 +1,4 @@
-# 06 Connecting Channels: Telegram & WhatsApp
+# 07 Connecting Channels (Telegram, WhatsApp)
 
 Now that OpenClaw has a "brain," it needs a way to communicate with you! Instead of having to open a terminal every time you want to talk to your assistant, we are going to connect it to your favorite messaging apps.
 
@@ -48,25 +48,12 @@ openclaw onboard
 ## 🗺️ How the Message Travels
 Here is the journey of a single "Hello" from your phone to OpenClaw:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-sequenceDiagram
-    participant U as User (Telegram)
-    participant B as Telegram Bot API
-    participant G as OpenClaw Gateway
-    participant A as Agent
-    U->>B: Sends Message
-    B->>G: Webhook / Polling
-    G->>A: Process Intent
-    A-->>G: Response
-    G-->>B: Send Reply
-    B-->>U: Receives Reply
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/c2VxdWVuY2VEaWFncmFtCiAgICBwYXJ0aWNpcGFudCBVIGFzIFVzZXIgKFRlbGVncmFtKQogICAgcGFydGljaXBhbnQgQiBhcyBUZWxlZ3JhbSBCb3QgQVBJCiAgICBwYXJ0aWNpcGFudCBHIGFzIE9wZW5DbGF3IEdhdGV3YXkKICAgIHBhcnRpY2lwYW50IEEgYXMgQWdlbnQKICAgIFUtPj5COiBTZW5kcyBNZXNzYWdlCiAgICBCLT4+RzogV2ViaG9vayAvIFBvbGxpbmcKICAgIEctPj5BOiBQcm9jZXNzIEludGVudAogICAgQS0tPj5HOiBSZXNwb25zZQogICAgRy0tPj5COiBTZW5kIFJlcGx5CiAgICBCLS0+PlU6IFJlY2VpdmVzIFJlcGx5)
-</details>
 
 ---
 
@@ -74,3 +61,4 @@ sequenceDiagram
 If you’ve followed these steps, you should be able to send a message on Telegram and get a response back from your AI. 
 
 **Next Chapter:** Let's look at the "Three Musketeers" of OpenClaw: Gateway, Agents, and Skills, and see how they work together under the hood!
+

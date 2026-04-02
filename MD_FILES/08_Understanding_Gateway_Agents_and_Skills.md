@@ -1,4 +1,4 @@
-# 07 The Three Musketeers: Gateway, Agents & Skills
+# 08 Understanding Gateway, Agents and Skills
 
 To truly master OpenClaw, you need to understand how its "internal organs" work together. We call them the **Three Musketeers**: the Gateway, the Agent, and the Skills. 
 
@@ -29,21 +29,12 @@ If the Agent is the brain, the Skills are the **hands**.
 ## 🔄 The Relationship Diagram
 Here is how these three components are linked together:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-erDiagram
-    GATEWAY ||--o{ AGENT : routes_to
-    AGENT ||--o{ SKILL : utilizes
-    AGENT ||--|| MEMORY : stores_in
-    GATEWAY { string protocol }
-    AGENT { string system_prompt }
-    SKILL { string endpoint }
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/ZXJEaWFncmFtCiAgICBHQVRFV0FZIHx8LS1veyBBR0VOVCA6IHJvdXRlc190bwogICAgQUdFTlQgfHwtLW97IFNLSUxMIDogdXRpbGl6ZXMKICAgIEFHRU5UIHx8LS18fCBNRU1PUlkgOiBzdG9yZXNfaW4KICAgIEdBVEVXQVkgeyBzdHJpbmcgcHJvdG9jb2wgfQogICAgQUdFTlQgeyBzdHJpbmcgc3lzdGVtX3Byb21wdCB9CiAgICBTS0lMTCB7IHN0cmluZyBlbmRwb2ludCB9)
-</details>
 
 ---
 
@@ -55,3 +46,4 @@ Because the Gateway is separate from the Agent, you can have **one Gateway** con
 They both run through the same OpenClaw system but have completely different personalities and skills!
 
 **Next Lesson:** Tired of your agent going offline when you close your laptop? Let's move OpenClaw to a Localhost (24/7) for 24/7 automation!
+

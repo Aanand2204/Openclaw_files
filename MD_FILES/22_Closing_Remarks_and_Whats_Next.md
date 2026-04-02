@@ -1,4 +1,4 @@
-# 19 Conclusion: Graduation from Zero to Hero!
+# 22 Closing Remarks and What's Next
 
 You’ve done it! You have successfully navigated the entire OpenClaw Crash Course. You’ve gone from just knowing about "AI chatbots" to being able to build, deploy, and manage your very own **24/7 Digital Assistant.**
 
@@ -26,20 +26,12 @@ The best way to keep your skills sharp is to **keep building.** Here are four th
 ## 🔄 The Path Forward
 Here is your next journey as a developer or automation expert:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-flowchart TD
-    A[End of Course] --> B(Join Discord)
-    A --> C(Star GitHub Repo)
-    A --> D(Build Custom Skills)
-    A --> E(Contribute to Core)
-    C --> F((Community Growth))
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Zmxvd2NoYXJ0IFRECiAgICBBW0VuZCBvZiBDb3Vyc2VdIC0tPiBCKEpvaW4gRGlzY29yZCkKICAgIEEgLS0+IEMoU3RhciBHaXRIdWIgUmVwbykKICAgIEEgLS0+IEQoQnVpbGQgQ3VzdG9tIFNraWxscykKICAgIEEgLS0+IEUoQ29udHJpYnV0ZSB0byBDb3JlKQogICAgQyAtLT4gRigoQ29tbXVuaXR5IEdyb3d0aCkp)
-</details>
 
 ---
 
@@ -47,3 +39,4 @@ flowchart TD
 Thank you for joining me on this journey. The era of the "Digital Employee" is just beginning, and you are now one of the few who knows how to build them.
 
 **Go build something amazing!**
+

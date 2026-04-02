@@ -1,4 +1,4 @@
-# 18 Final Thoughts: Mastering OpenClaw
+# 21 Final Thoughts, Limitations and When to Use OpenClaw
 
 Congratulations! You’ve gone from someone who only used AI as a "chatbot" to someone who can build and deploy **Autonomous Agents**. You now have the skills to run an always-on assistant that manages your digital life.
 
@@ -23,19 +23,12 @@ OpenClaw isn't perfect for everything:
 ## 🆚 OpenClaw vs. Standard SaaS
 How does it compare to the popular alternatives?
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-graph LR
-    A{OpenClaw} --> B(Strengths: Customization, Privacy, Autonomy)
-    A --> C(Weaknesses: Setup Overhead, Hosting Costs)
-    D{SaaS Options} --> E(Strengths: Turnkey, Scalable)
-    D --> F(Weaknesses: Locked-in, Data Privacy concerns)
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Z3JhcGggTFIKICAgIEF7T3BlbkNsYXd9IC0tPiBCKFN0cmVuZ3RoczogQ3VzdG9taXphdGlvbiwgUHJpdmFjeSwgQXV0b25vbXkpCiAgICBBIC0tPiBDKFdlYWtuZXNzZXM6IFNldHVwIE92ZXJoZWFkLCBIb3N0aW5nIENvc3RzKQogICAgRHtTYWFTIE9wdGlvbnN9IC0tPiBFKFN0cmVuZ3RoczogVHVybmtleSwgU2NhbGFibGUpCiAgICBEIC0tPiBGKFdlYWtuZXNzZXM6IExvY2tlZC1pbiwgRGF0YSBQcml2YWN5IGNvbmNlcm5zKQ==)
-</details>
 
 ---
 
@@ -45,3 +38,4 @@ graph LR
 *   **Watch the Community**: OpenClaw is evolving fast. Keep an eye on GitHub for new "MCP" skills that you can plug in instantly.
 
 **Next Up (The Grand Finale):** We’ll wrap up the course and look at where you can go from here!
+

@@ -1,4 +1,4 @@
-# 03 Course Roadmap: Your Journey to Becoming an OpenClaw Master
+# 04 Course Roadmap: What You Will Learn
 
 Welcome to the roadmap! This isn't just a list of chapters; it's a mission plan. Over the next 16 chapters, we are going to move fast. We’ll go from a blank terminal to a fully-functioning, 24/7 digital assistant.
 
@@ -39,23 +39,12 @@ The final stage is scaling your assistant so it’s always working for you.
 ## 📅 Visualize the Schedule
 Here is how we’ve paced out these topics to take you from Zero to Hero in record time:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-gantt
-    title OpenClaw Crash Course Roadmap
-    dateFormat  YYYY-MM-DD
-    section Basics
-    Installation & Setup     :a1, 2026-04-01, 1d
-    Core Concepts            :a2, after a1, 1d
-    section Advanced
-    Skills & Interfaces      :a3, after a2, 2d
-    Localhost (24/7) & Automation         :a4, after a3, 2d
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Z2FudHQKICAgIHRpdGxlIE9wZW5DbGF3IENyYXNoIENvdXJzZSBSb2FkbWFwCiAgICBkYXRlRm9ybWF0ICBZWVlZLU1NLURECiAgICBzZWN0aW9uIEJhc2ljcwogICAgSW5zdGFsbGF0aW9uICYgU2V0dXAgICAgIDphMSwgMjAyNi0wNC0wMSwgMWQKICAgIENvcmUgQ29uY2VwdHMgICAgICAgICAgICA6YTIsIGFmdGVyIGExLCAxZAogICAgc2VjdGlvbiBBZHZhbmNlZAogICAgU2tpbGxzICYgSW50ZXJmYWNlcyAgICAgIDphMywgYWZ0ZXIgYTIsIDJkCiAgICBMb2NhbGhvc3QgKDI0LzcpICYgQXV0b21hdGlvbiAgICAgICAgIDphNCwgYWZ0ZXIgYTMsIDJk)
-</details>
 
 ---
 
@@ -63,3 +52,4 @@ gantt
 We start with local installation because it’s important to see it working on your own hardware first. Once you understand the security implications and the core feel of the tool, managing local persistence (Chapter 8) becomes much more intuitive.
 
 **Next Lesson:** It’s time to stop talking and start building. Let’s get OpenClaw installed on your machine!
+

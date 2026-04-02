@@ -1,4 +1,4 @@
-# 14 Cron Jobs vs. Heartbeats: Making Your Agent Proactive
+# 15 Cron Jobs vs Heartbeats: Automation Logic
 
 Most AI chatbots are **reactive**—they sit there and wait for you to speak. But what if your assistant could start a conversation with *you*? That is the power of **Cron Jobs** and **Heartbeats**.
 
@@ -32,20 +32,12 @@ A **Heartbeat** is slightly different. Instead of a fixed time, it’s a repeati
 ## 🔄 Proactive Mechanism Diagram
 Here is how your agent manages these automated triggers:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-graph TD
-    subgraph Proactive Mechanisms
-    C[Cron Job Engine] -->|Fixed Time| T[Trigger Agent]
-    H[Heartbeat Loop] -->|Every 5 mins| E{Evaluate State}
-    E -->|If action needed| T
-    end
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Z3JhcGggVEQKICAgIHN1YmdyYXBoIFByb2FjdGl2ZSBNZWNoYW5pc21zCiAgICBDW0Nyb24gSm9iIEVuZ2luZV0gLS0+fEZpeGVkIFRpbWV8IFRbVHJpZ2dlciBBZ2VudF0KICAgIEhbSGVhcnRiZWF0IExvb3BdIC0tPnxFdmVyeSA1IG1pbnN8IEV7RXZhbHVhdGUgU3RhdGV9CiAgICBFIC0tPnxJZiBhY3Rpb24gbmVlZGVkfCBUCiAgICBlbmQ=)
-</details>
 
 ---
 
@@ -61,3 +53,4 @@ Try asking your agent: *"Show me my current active cron jobs."*
 It should list the morning reminder we set up!
 
 **Next Lesson:** We’ve mastered automation, now let’s look at how to scale! We’re going to discuss **Multi-Agent Architecture** for work and life!
+

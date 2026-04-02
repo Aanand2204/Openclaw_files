@@ -1,4 +1,4 @@
-# 04 Local Installation: Getting OpenClaw Up and Running
+# 05 Local Installation (Mac and Windows)
 
 It’s time to stop the theory and start the installation! In this chapter, we’re going to install OpenClaw on your local machine. Whether you’re on a Mac or Windows, the process is designed to be as smooth as possible—often requiring just a single command.
 
@@ -50,20 +50,12 @@ Just remember: **Never share your API keys or session tokens with anyone.**
 ## 🗺️ Installation Flow
 Here’s what’s happening behind the scenes when you run that install command:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-graph TD
-    Start[Start Local Setup] --> Clone[git clone repo]
-    Clone --> Venv[python -m venv venv]
-    Venv --> Act[Activate venv]
-    Act --> Req[pip install -r requirements.txt]
-    Req --> Run[python main.py]
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Z3JhcGggVEQKICAgIFN0YXJ0W1N0YXJ0IExvY2FsIFNldHVwXSAtLT4gQ2xvbmVbZ2l0IGNsb25lIHJlcG9dCiAgICBDbG9uZSAtLT4gVmVudltweXRob24gLW0gdmVudiB2ZW52XQogICAgVmVudiAtLT4gQWN0W0FjdGl2YXRlIHZlbnZdCiAgICBBY3QgLS0+IFJlcVtwaXAgaW5zdGFsbCAtciByZXF1aXJlbWVudHMudHh0XQogICAgUmVxIC0tPiBSdW5bcHl0aG9uIG1haW4ucHld)
-</details>
 
 ---
 
@@ -71,3 +63,4 @@ graph TD
 Once the installation is complete, your terminal should look clean, and you might see a message about "Missing APIs." That’s perfectly normal—we haven’t given our agent a brain yet.
 
 **Next Step:** Let's get those API keys and choose the right "brain" for your assistant!
+

@@ -31,21 +31,12 @@ This is what makes OpenClaw better than a simple chatbot. **Skills** are pieces 
 ## 🔄 The Communication Flow
 Here's a visual look at how these pillars talk to each other. When you send a message, it travels through this exact loop:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-flowchart LR
-    User([User]) <--> Gateway[Core Gateway]
-    Gateway <--> Agent{Agent Core}
-    Agent <--> Memory[(Memory / Soul)]
-    Agent --> Skills[Skills & Tools]
-    Skills --> Web[Web Search]
-    Skills --> Local[Local Scripts]
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Zmxvd2NoYXJ0IExSCiAgICBVc2VyKFtVc2VyXSkgPC0tPiBHYXRld2F5W0NvcmUgR2F0ZXdheV0KICAgIEdhdGV3YXkgPC0tPiBBZ2VudHtBZ2VudCBDb3JlfQogICAgQWdlbnQgPC0tPiBNZW1vcnlbKE1lbW9yeSAvIFNvdWwpXQogICAgQWdlbnQgLS0+IFNraWxsc1tTa2lsbHMgJiBUb29sc10KICAgIFNraWxscyAtLT4gV2ViW1dlYiBTZWFyY2hdCiAgICBTa2lsbHMgLS0+IExvY2FsW0xvY2FsIFNjcmlwdHNd)
-</details>
 
 ---
 
@@ -56,4 +47,5 @@ OpenClaw doesn't just forget everything after one session. It stores information
 
 By editing these files (which the agent can even do itself!), your assistant develops a personality that evolves based on your interactions.
 
-**Next up:** We’ll look at the roadmap for this course and how we're going to build your assistant step-by-step!
+**Next Up:** We'll explore the real-world use cases and what you can actually build!
+

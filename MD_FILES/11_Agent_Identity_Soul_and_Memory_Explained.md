@@ -1,4 +1,4 @@
-# 10 Identity, Soul & Memory: Giving Your AI a "Life"
+# 11 Agent Identity, Soul and Memory Explained
 
 OpenClaw isn’t just a regular chatbot that forgets everything when you close the tab. It is designed to be a **Digital Clone**. To achieve this, it uses three interconnected systems that give it a personality and a long-term memory.
 
@@ -34,20 +34,12 @@ If you want to play "God" and manually edit your agent's personality, you can fi
 ## 🔄 The Personality Loop
 Here is how your agent stays consistent across every conversation:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-graph TD
-    Profile[Agent Profile] --> Identity((Core Identity))
-    Identity --> SystemPrompt[System Prompt]
-    Identity --> MemoryBank[(Vector DB Memory)]
-    MemoryBank --> Reflection[Nightly Summarization]
-    Reflection --> Identity
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Z3JhcGggVEQKICAgIFByb2ZpbGVbQWdlbnQgUHJvZmlsZV0gLS0+IElkZW50aXR5KChDb3JlIElkZW50aXR5KSkKICAgIElkZW50aXR5IC0tPiBTeXN0ZW1Qcm9tcHRbU3lzdGVtIFByb21wdF0KICAgIElkZW50aXR5IC0tPiBNZW1vcnlCYW5rWyhWZWN0b3IgREIgTWVtb3J5KV0KICAgIE1lbW9yeUJhbmsgLS0+IFJlZmxlY3Rpb25bTmlnaHRseSBTdW1tYXJpemF0aW9uXQogICAgUmVmbGVjdGlvbiAtLT4gSWRlbnRpdHk=)
-</details>
 
 ---
 
@@ -56,3 +48,4 @@ Try asking your agent: *"Explain your soul to me."*
 It should reply with the core principles defined in its `soul.md` file. This is how you know your agent has truly "hatched" and is ready for work!
 
 **Next Lesson:** Now that your agent has a personality, let’s give it some tools! We’re diving deep into **Skills**.
+

@@ -1,4 +1,4 @@
-# 16 Project: Your 24/7 Daily Telegram Assistant
+# 17 Building a Daily Telegram Assistant Project
 
 It’s time to bring everything together! We have the brain, the channels, the skills, and the automation. Now, we are going to build a **Daily Assistant** that pings you every morning with exactly what you need to know to win the day.
 
@@ -33,22 +33,12 @@ Check your Web UI or type `/cron list` in the TUI to make sure the job is regist
 ## 🔄 The Final Project Workflow
 Here is how your assistant operates autonomously while you are still asleep:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-sequenceDiagram
-    participant Cron
-    participant Agent
-    participant Telegram
-    Cron->>Agent: 8:00 AM Trigger
-    Agent->>Agent: Gather context (news, tasks)
-    Agent->>Telegram: Send Morning Briefing
-    Telegram-->>User: Notification received
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/c2VxdWVuY2VEaWFncmFtCiAgICBwYXJ0aWNpcGFudCBDcm9uCiAgICBwYXJ0aWNpcGFudCBBZ2VudAogICAgcGFydGljaXBhbnQgVGVsZWdyYW0KICAgIENyb24tPj5BZ2VudDogODowMCBBTSBUcmlnZ2VyCiAgICBBZ2VudC0+PkFnZW50OiBHYXRoZXIgY29udGV4dCAobmV3cywgdGFza3MpCiAgICBBZ2VudC0+PlRlbGVncmFtOiBTZW5kIE1vcm5pbmcgQnJpZWZpbmcKICAgIFRlbGVncmFtLS0+PlVzZXI6IE5vdGlmaWNhdGlvbiByZWNlaXZlZA==)
-</details>
 
 ---
 
@@ -58,3 +48,4 @@ Tomorrow morning at 9:00 AM, your phone should buzz with a message from your bot
 **Congratulations!** You aren't just using AI anymore—you’ve built an autonomous system that works for you.
 
 **Next Lesson:** Before we finish, we need to talk about the "Rules of the Game"—Security and Best Practices.
+

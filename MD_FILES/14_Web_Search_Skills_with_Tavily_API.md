@@ -1,4 +1,4 @@
-# 13 Web Search: Giving Your AI "Real-Time" Knowledge
+# 14 Web Search Skills with Tavily API
 
 A static AI only knows things up to its training date. But an OpenClaw agent with **Web Search** knows what happened five minutes ago. In this chapter, we’re going to give your agent the power of the live internet using the **Tavily API**.
 
@@ -25,20 +25,12 @@ While you can use Google or Bing, **Tavily** is built specifically for AI agents
 ## 🔄 The Search Loop
 Here is how your agent uses search to fact-check its answers in real-time:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-graph TD
-    A{Agent Needs Info} -->|Triggers| B[Web Search Skill]
-    B -->|API req| C((Tavily API))
-    C -->|JSON| B
-    B -->|Format| A
-    A --> D[Synthesized Answer]
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Z3JhcGggVEQKICAgIEF7QWdlbnQgTmVlZHMgSW5mb30gLS0+fFRyaWdnZXJzfCBCW1dlYiBTZWFyY2ggU2tpbGxdCiAgICBCIC0tPnxBUEkgcmVxfCBDKChUYXZpbHkgQVBJKSkKICAgIEMgLS0+fEpTT058IEIKICAgIEIgLS0+fEZvcm1hdHwgQQogICAgQSAtLT4gRFtTeW50aGVzaXplZCBBbnN3ZXJd)
-</details>
 
 ---
 
@@ -49,3 +41,4 @@ Once enabled, try asking your agent something very recent, like:
 If the agent says it’s "using search," you’ve successfully given it eyes on the world!
 
 **Next Lesson:** Now that your agent can search, let’s learn how to make it **proactive** using Cron Jobs and Heartbeats!
+

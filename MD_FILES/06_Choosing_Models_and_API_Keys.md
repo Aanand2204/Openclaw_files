@@ -1,4 +1,4 @@
-# 05 Choosing Your Assistant’s Brain (Models & API Keys)
+# 06 Choosing Models and API Keys
 
 OpenClaw is "model-agnostic," meaning you can give it almost any AI brain you want. Whether you want the power of OpenAI, the huge context window of Anthropic, or the free tier friendliness of Google Gemini, OpenClaw can handle it.
 
@@ -45,21 +45,12 @@ ANTHROPIC_API_KEY=YOUR_CLAUDE_KEY_HERE
 ## 🗺️ Model Choice Visualization
 Here is how OpenClaw handles different model providers:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-graph LR
-    A(OpenClaw .env) --> B{Model Provider}
-    B --> C[Gemini Pro]
-    B --> D[OpenAI GPT-4]
-    B --> E[Local LLM / LM Studio]
-    C --> F[API Key Setup]
-    D --> F
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Z3JhcGggTFIKICAgIEEoT3BlbkNsYXcgLmVudikgLS0+IEJ7TW9kZWwgUHJvdmlkZXJ9CiAgICBCIC0tPiBDW0dlbWluaSBQcm9dCiAgICBCIC0tPiBEW09wZW5BSSBHUFQtNF0KICAgIEIgLS0+IEVbTG9jYWwgTExNIC8gTE0gU3R1ZGlvXQogICAgQyAtLT4gRltBUEkgS2V5IFNldHVwXQogICAgRCAtLT4gRg==)
-</details>
 
 ---
 
@@ -67,3 +58,4 @@ graph LR
 One cool feature of OpenClaw is the **Fallback Model**. If your primary model (like GPT-4) fails because you ran out of credits, OpenClaw can automatically switch to a cheaper fallback (like Gemini Flash) so your agent stays alive!
 
 **Next Step:** Now that we have a brain, let's give it a channel to talk through—Telegram and WhatsApp!
+

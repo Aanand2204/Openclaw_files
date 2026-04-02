@@ -1,4 +1,4 @@
-# 08 Running OpenClaw 24/7: Local Persistence
+# 09 Running OpenClaw 24/7 on LocalHost
 
 So, you’ve decided to keep your agent on your local machine—that’s a great choice! It’s free, it’s completely private, and you have 100% control over the hardware. 
 
@@ -38,20 +38,12 @@ OpenClaw runs in your terminal. If you close the terminal window, the "Musketeer
 ## 🔄 Localhost Workflow Visualization
 Here is how your local machine handles the agent's constant activity:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-flowchart TD
-    User([User]) <--> LC[Localhost Convo]
-    LC --> PC((Power Settings))
-    PC --> OC
-    OC[OpenClaw Runtime]
-    OC --> CRon[Cron Jobs Alive]
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Zmxvd2NoYXJ0IFRECiAgICBVc2VyKFtVc2VyXSkgPC0tPiBMQ1tMb2NhbGhvc3QgQ29udm9dCiAgICBMQyAtLT4gUEMoKFBvd2VyIFNldHRpbmdzKSkKICAgIFBDIC0tPiBPQwogICAgT0NbT3BlbkNsYXcgUnVudGltZV0KICAgIE9DIC0tPiBDUm9uW0Nyb24gSm9icyBBbGl2ZV0=)
-</details>
 
 ---
 
@@ -62,3 +54,4 @@ To test if your persistence is working:
 3.  If you get the notification on Telegram, your **Localhost 24/7** setup is perfect!
 
 **Next Lesson:** Now that your "Always On" engine is ready, let’s explore the different ways you can interact with your agent: Web UI, TUI, and Desktop Apps!
+

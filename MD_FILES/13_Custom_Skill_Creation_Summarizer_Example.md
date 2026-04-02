@@ -1,4 +1,4 @@
-# 12 Custom Skills: Writing Your First Python Tool
+# 13 Custom Skill Creation (Summarizer Example)
 
 You’ve used the built-in skills, but what if you want OpenClaw to do something **unique to your workflow**? That’s where **Custom Skills** come in. In this chapter, we’re going to walk through the anatomy of a skill by looking at a "Summarizer" example.
 
@@ -47,19 +47,12 @@ You can find (and add) custom skills in this directory:
 ## 🔄 Custom Skill Visualization
 Here is the step-by-step logic the agent uses when it triggers your new skill:
 
-<details>
-<summary>View Mermaid Source</summary>
 
-```mermaid
-flowchart LR
-    Start[Define @skill wrapper] --> Args[Define arguments/schema]
-    Args --> Logic[Implement Summarization Logic]
-    Logic --> Return[Return strictly formatted text]
-    Return --> Register[Register skill in Agent Config]
-```
+``
+
+``
 
 ![Diagram](https://mermaid.ink/img/Zmxvd2NoYXJ0IExSCiAgICBTdGFydFtEZWZpbmUgQHNraWxsIHdyYXBwZXJdIC0tPiBBcmdzW0RlZmluZSBhcmd1bWVudHMvc2NoZW1hXQogICAgQXJncyAtLT4gTG9naWNbSW1wbGVtZW50IFN1bW1hcml6YXRpb24gTG9naWNdCiAgICBMb2dpYyAtLT4gUmV0dXJuW1JldHVybiBzdHJpY3RseSBmb3JtYXR0ZWQgdGV4dF0KICAgIFJldHVybiAtLT4gUmVnaXN0ZXJbUmVnaXN0ZXIgc2tpbGwgaW4gQWdlbnQgQ29uZmlnXQ==)
-</details>
 
 ---
 
@@ -68,3 +61,4 @@ After adding a new `.py` file to the skills folder, restart your OpenClaw sessio
 Your agent should recognize it and be ready to use it!
 
 **Next Lesson:** Let’s connect your agent to the live internet using one of the most popular skills—**Tavily Web Search**.
+
