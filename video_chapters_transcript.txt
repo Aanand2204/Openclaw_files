@@ -1,0 +1,98 @@
+Video ID: JidX31wPGqQ
+Chapters count: 19
+Error fetching transcript: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+Transcript segments: 0
+--- Chapter 1: Introduction & Why OpenClaw Matters (0.0 - 146.0) ---
+Text Length: 0
+
+
+
+--- Chapter 2: What Is OpenClaw? Core Architecture Explained (146.0 - 287.0) ---
+Text Length: 0
+
+
+
+--- Chapter 3: Course Roadmap: What You’ll Learn (287.0 - 350.0) ---
+Text Length: 0
+
+
+
+--- Chapter 4: Local Installation (Mac & Windows) (350.0 - 595.0) ---
+Text Length: 0
+
+
+
+--- Chapter 5: Choosing Models & API Keys (Gemini, OpenAI) (595.0 - 655.0) ---
+Text Length: 0
+
+
+
+--- Chapter 6: Connecting Channels (Telegram, WhatsApp) (655.0 - 885.0) ---
+Text Length: 0
+
+
+
+--- Chapter 7: Understanding Gateway, Agents & Skills (885.0 - 1080.0) ---
+Text Length: 0
+
+
+
+--- Chapter 8: Running OpenClaw 24/7 on VPS (Hostinger Setup) (1080.0 - 1285.0) ---
+Text Length: 0
+
+
+
+--- Chapter 9: Web UI, TUI & Desktop Interfaces (1285.0 - 1650.0) ---
+Text Length: 0
+
+
+
+--- Chapter 10: Agent Identity, Soul & Memory Explained (1650.0 - 2020.0) ---
+Text Length: 0
+
+
+
+--- Chapter 11: Creating and Managing Skills (Deep Dive) (2020.0 - 2640.0) ---
+Text Length: 0
+
+
+
+--- Chapter 12: Custom Skill Creation (Summarizer Example) (2640.0 - 3010.0) ---
+Text Length: 0
+
+
+
+--- Chapter 13: Web Search Skills with Tavily API (3010.0 - 3450.0) ---
+Text Length: 0
+
+
+
+--- Chapter 14: Cron Jobs vs Heartbeats (Automation Logic) (3450.0 - 4070.0) ---
+Text Length: 0
+
+
+
+--- Chapter 15: Multi-Agent Architecture (Work vs Personal) (4070.0 - 4720.0) ---
+Text Length: 0
+
+
+
+--- Chapter 16: Building a Daily Telegram Assistant Project (4720.0 - 5250.0) ---
+Text Length: 0
+
+
+
+--- Chapter 17: Security Risks, Best Practices & Audit (5250.0 - 5610.0) ---
+Text Length: 0
+
+
+
+--- Chapter 18: Final Thoughts, Limitations & When to Use OpenClaw (5610.0 - 5690.0) ---
+Text Length: 0
+
+
+
+--- Chapter 19: Closing Remarks & What’s Next (5690.0 - 5722) ---
+Text Length: 0
+
+
